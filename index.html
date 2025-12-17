@@ -1,32 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<title>3D MMO Multiplayer</title>
-<style>
-  body { margin:0; overflow:hidden; font-family:sans-serif; }
-  #colorPicker { position:absolute; top:10px; left:10px; z-index:10; }
-  #chatContainer { position:absolute; bottom:10px; left:10px; width:300px; z-index:10; }
-  #chatBox { height:150px; overflow-y:auto; background:#222; color:#fff; padding:5px; border-radius:5px; }
-  #chatInput { width:100%; box-sizing:border-box; padding:5px; border-radius:3px; border:none; }
-</style>
+<meta charset="utf-8" />
+<title>DynBuild</title>
+<link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-<input type="color" id="colorPicker" value="#00ff00">
-
-<div id="chatContainer">
-  <div id="chatBox"></div>
-  <input type="text" id="chatInput" placeholder="Type message...">
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/three@0.164.0/build/three.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/three@0.164.0/examples/js/loaders/STLLoader.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/three@0.164.0/examples/js/controls/PointerLockControls.js"></script>
-
-<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
-
-<script src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.160.0/examples/js/controls/PointerLockControls.js"></script>
+<script type="module" src="main.js"></script>
 </body>
 </html>
